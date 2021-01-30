@@ -4,6 +4,7 @@ phases:
     commands:
       - echo Restore started on `date`
       - dotnet restore SampleCore.csproj
+      - dotnet build SampleCore.csproj
   build:
     commands:
       - echo Build started on `date`
